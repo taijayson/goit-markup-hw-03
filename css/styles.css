@@ -1,0 +1,169 @@
+:root {
+  --accent-color: #2196f3;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --headers-color: #212121;
+  --text-color: #757575;
+  --hero-color: #ffffff;
+  --footer__address-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+/* ========== COMPONENTS ========== */
+.logo-element {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.works__header,
+.team__header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+  color: var(--headers-color);
+}
+/* ======== END COMPONENTS ======== */
+
+/* ========== HEADER ========== */
+.navigation__list-link,
+.address__list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--headers-color);
+}
+
+.navigation__list-link:hover,
+.address__list-link:hover,
+.navigation__list-link:focus,
+.address__list-link:focus {
+  color: var(--accent-color);
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--headers-color);
+}
+/* ========== END HEADER ========== */
+
+/* ========== HERO ========== */
+.modal-btn {
+  display: block;
+  margin: 0 auto;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  /* color: var(--hero-color); */
+}
+
+.hero__header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: var(--hero-color); */
+}
+/* ========== END HERO ========== */
+
+/* ========== ABOUT ========== */
+.about__list-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--headers-color);
+}
+
+.about__list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* ========== END ABOUT ========== */
+
+/* ========== WORKS ========== */
+
+/* ========== END WORKS ========== */
+
+/* ========== TEAM ========== */
+.team__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--headers-color);
+}
+
+.team__work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* ========== END TEAM ========== */
+
+/* ========== FOOTER ========== */
+.footer__logo-element {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  /* color: var(--hero-color); */
+}
+
+.footer__address-map {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /* color: #ffffff; */
+}
+
+.footer__address-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /* color: var(--footer__address-color); */
+}
+/* ========== END FOOTER ========== */
