@@ -8,6 +8,13 @@
   --footer__address-color: rgba(255, 255, 255, 0.6);
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: var(--main-font);
 }
@@ -28,6 +35,17 @@ img {
   font-style: normal;
 }
 
+.container {
+  width: 1600px;
+  padding: 0 215px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* ========== COMPONENTS ========== */
 .logo-element {
   font-family: var(--secondary-font);
@@ -46,9 +64,44 @@ img {
   letter-spacing: 0.03em;
   color: var(--headers-color);
 }
+
 /* ======== END COMPONENTS ======== */
 
 /* ========== HEADER ========== */
+.header {
+  padding: 32px 0;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .address {
+  /* margin-left: auto; */
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__list {
+  display: flex;
+}
+
+.navigation__list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.logo {
+  margin-right: 93px;
+}
+
+.header__address {
+  display: flex;
+}
+
 .navigation__list-link,
 .address__list-link {
   font-weight: 500;
@@ -89,6 +142,7 @@ img {
 }
 
 .hero__header {
+  margin: 0 auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
@@ -99,13 +153,31 @@ img {
 /* ========== END HERO ========== */
 
 /* ========== ABOUT ========== */
+.about .container {
+  display: flex;
+}
+
+.about__list {
+  display: flex;
+  padding-top: 94px;
+}
+
 .about__list-header {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--headers-color);
+}
+
+.about__list-item {
+  width: 270px;
+}
+
+.about__list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .about__list-text {
@@ -118,6 +190,19 @@ img {
 /* ========== END ABOUT ========== */
 
 /* ========== WORKS ========== */
+.works .container {
+  display: flex;
+}
+
+.works__list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: ;
+}
+
+.works__list-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 /* ========== END WORKS ========== */
 

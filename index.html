@@ -14,7 +14,8 @@
   <body>
     <!-- Шапка -->
     <header class="header">
-      <nav class="navigation">
+      <div class="container">
+       <nav class="navigation">
         <a class="logo link" href="index.html">
           <span class="logo-element">Web</span>
           Studio
@@ -31,94 +32,101 @@
             <a class="navigation__list-link link" href="">Контакты</a>
           </li>
         </ul>
-      </nav>
-      <address class="address">
-        <ul class="address__list list">
-          <li class="address__list-item">
-            <a class="address__list-link link" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li class="address__list-item">
-            <a class="address__list-link link" href="tel:+380991111111"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+       </nav>
+        <div class="header__address">
+          <address class="address">
+            <ul class="address__list list">
+              <li class="address__list-item">
+                <a class="address__list-link link" href="mailto:info@example.com"
+                >info@example.com</a>
+              </li>
+              <li class="address__list-item">
+                <a class="address__list-link link" href="tel:+380991111111"
+                >+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
     </header>
     <main>
       <!-- Герой -->
       <section class="hero">
-          <h1 class="hero__header">Эффективные решения для вашего бизнеса</h1>
-        <button class="modal-btn" type="button">Заказать услугу</button>
+        <div class="container">
+            <h1 class="hero__header">Эффективные решения для вашего бизнеса</h1>
+          <button class="modal-btn" type="button">Заказать услугу</button>
+        </div>
       </section>
       <!-- Наши качества -->
       <section class="about">
-        <h2 class="about__header">Наши качества</h2>
-        <ul class="about__list list">
-          <li class="about__list-item">
-            <h3 class="about__list-header">Внимание к деталям</h3>
-            <p class="about__list-text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li class="about__list-item">
-            <h3 class="about__list-header">Пунктуальность</h3>
-            <p class="about__list-text">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li class="about__list-item">
-            <h3 class="about__list-header">Планирование</h3>
-            <p class="about__list-text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li class="about__list-item">
-            <h3 class="about__list-header">Современные технологии</h3>
-            <p class="about__list-text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 hidden class="about__header">Наши качества</h2>
+          <ul class="about__list list">
+            <li class="about__list-item">
+              <h3 class="about__list-header">Внимание к деталям</h3>
+              <p class="about__list-text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="about__list-item">
+              <h3 class="about__list-header">Пунктуальность</h3>
+              <p class="about__list-text">
+                Задача организации, в особенности же рамки и место обучения кадров
+                влечет за собой.
+              </p>
+            </li>
+            <li class="about__list-item">
+              <h3 class="about__list-header">Планирование</h3>
+              <p class="about__list-text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="about__list-item">
+              <h3 class="about__list-header">Современные технологии</h3>
+              <p class="about__list-text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Чем мы занимаемся -->
       <section class="works">
-        <h2 class="works__header">Чем мы занимаемся</h2>
-        <ul class="works__list list">
-          <li class="works__list-item">
-            <img
-              class="works__list-img"
-              src="./images/tab.jpg"
-              alt="человек за планшетом"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li class="works__list-item">
-            <img
-              class="works__list-img"
-              src="./images/phone1.jpg"
-              alt="человек с телефоном за ноутбуком"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li class="works__list-item">
-            <img
-              class="works__list-img"
-              src="./images/phone2.jpg"
-              alt="человек с палитрой на телефоне"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="works__header">Чем мы занимаемся</h2>
+          <ul class="works__list list">
+            <li class="works__list-item">
+              <img
+                class="works__list-img"
+                src="./images/tab.jpg"
+                alt="человек за планшетом"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="works__list-item">
+              <img
+                class="works__list-img"
+                src="./images/phone1.jpg"
+                alt="человек с телефоном за ноутбуком"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="works__list-item">
+              <img
+                class="works__list-img"
+                src="./images/phone2.jpg"
+                alt="человек с палитрой на телефоне"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Наша команда -->
       <section class="team">
