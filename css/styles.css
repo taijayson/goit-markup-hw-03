@@ -36,8 +36,8 @@ img {
 }
 
 .container {
-  width: 1600px;
-  padding: 0 215px;
+  width: 1170px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -190,14 +190,20 @@ img {
 /* ========== END ABOUT ========== */
 
 /* ========== WORKS ========== */
+.works__header {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+}
+
 .works .container {
   display: flex;
 }
 
 .works__list {
   display: flex;
-  justify-content: space-between;
-  padding-top: ;
+  justify-content: center;
+  padding-top: 50px;
 }
 
 .works__list-item:not(:last-child) {
@@ -207,12 +213,29 @@ img {
 /* ========== END WORKS ========== */
 
 /* ========== TEAM ========== */
+.team .container {
+  display: flex;
+}
+
+.team__header {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+}
+
+.team__list {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
+
 .team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;
   color: var(--headers-color);
+  margin-top: 30px;
 }
 
 .team__work {
@@ -221,6 +244,11 @@ img {
   line-height: 1.188;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-top: 10px;
+}
+
+.team__list-item:not(:last-child) {
+  margin-right: 30px;
 }
 /* ========== END TEAM ========== */
 
