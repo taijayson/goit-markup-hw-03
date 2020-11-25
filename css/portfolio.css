@@ -115,6 +115,18 @@ img {
   letter-spacing: 0.03em;
   color: var(--headers-color);
 }
+
+.address__list {
+  display: flex;
+}
+
+.address__list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.address__list-link {
+  color: var(--text-color);
+}
 /* ========== END HEADER ========== */
 
 /* ========== PROJECTS ========== */

@@ -17,7 +17,7 @@
 
 body {
   font-family: var(--main-font);
-  max-width: 1600px;
+  width: 1600px;
 }
 
 img {
