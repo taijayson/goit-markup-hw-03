@@ -1,7 +1,7 @@
 :root {
-  --accent-color: #2196f3;
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
   --headers-color: #212121;
   --text-color: #757575;
   --hero-color: #ffffff;
@@ -78,9 +78,6 @@ img {
   align-items: center;
   justify-content: space-between;
 }
-.header .address {
-  display: flex;
-}
 
 .navigation {
   display: flex;
@@ -97,10 +94,6 @@ img {
 
 .logo {
   margin-right: 93px;
-}
-
-.header__address {
-  display: flex;
 }
 
 .navigation__list-link,
@@ -219,6 +212,10 @@ img {
 .works .container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.works__list-item {
+  padding-bottom: 94px;
 }
 
 .works__header {

@@ -1,7 +1,7 @@
 :root {
-  --accent-color: #2196f3;
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
   --headers-color: #212121;
   --text-color: #757575;
   --hero-color: #ffffff;
@@ -67,9 +67,6 @@ img {
   align-items: center;
   justify-content: space-between;
 }
-.header .address {
-  /* margin-left: auto; */
-}
 
 .navigation {
   display: flex;
@@ -86,10 +83,6 @@ img {
 
 .logo {
   margin-right: 93px;
-}
-
-.header__address {
-  display: flex;
 }
 
 .navigation__list-link,
