@@ -17,6 +17,7 @@
 
 body {
   font-family: var(--main-font);
+  max-width: 1600px;
 }
 
 img {
@@ -148,9 +149,16 @@ img {
   letter-spacing: 0.06em;
   padding: 6px 22px;
   border-style: none;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
   color: var(--headers-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--hero-color);
+  outline: none;
 }
 
 .projects__list-item:not(:last-child) {
@@ -186,7 +194,7 @@ img {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   color: var(--text-color);
 }
 
@@ -201,13 +209,21 @@ img {
 /* ========== END WORKS ========== */
 
 /* ========== FOOTER ========== */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .container {
+  padding: 60px 0px;
+}
+
 .footer__logo-element {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  /* color: var(--hero-color); */
+  color: var(--hero-color);
 }
 
 .footer__address-map {
@@ -216,7 +232,7 @@ img {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 .footer__address-link {
@@ -225,6 +241,15 @@ img {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  /* color: var(--footer__address-color); */
+  color: var(--footer__address-color);
 }
+
+.footer__address {
+  margin-top: 20px;
+}
+
+.footer__address-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 /* ========== END FOOTER ========== */

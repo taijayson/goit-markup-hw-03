@@ -17,7 +17,7 @@
 
 body {
   font-family: var(--main-font);
-  width: 1600px;
+  max-width: 1600px;
 }
 
 img {
@@ -142,6 +142,11 @@ img {
 /* ========== END HEADER ========== */
 
 /* ========== HERO ========== */
+.hero .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .modal-btn {
   display: block;
   margin: 0 auto;
@@ -203,14 +208,14 @@ img {
 /* ========== END ABOUT ========== */
 
 /* ========== WORKS ========== */
-.works__header {
-  display: flex;
-  justify-content: center;
-  padding-top: 94px;
-}
-
 .works .container {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.works__header {
+  padding-top: 94px;
+  margin: 0 auto;
 }
 
 .works__list {
@@ -228,12 +233,12 @@ img {
 /* ========== TEAM ========== */
 .team .container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .team__header {
-  display: flex;
-  justify-content: center;
   padding-top: 94px;
+  margin: 0 auto;
 }
 
 .team__list {
@@ -243,6 +248,8 @@ img {
 }
 
 .team__name {
+  display: flex;
+  justify-content: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
@@ -252,6 +259,8 @@ img {
 }
 
 .team__work {
+  display: flex;
+  justify-content: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.188;
@@ -266,13 +275,21 @@ img {
 /* ========== END TEAM ========== */
 
 /* ========== FOOTER ========== */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .container {
+  padding: 60px 0px;
+}
+
 .footer__logo-element {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  /* color: var(--hero-color); */
+  color: var(--hero-color);
 }
 
 .footer__address-map {
@@ -281,7 +298,7 @@ img {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 .footer__address-link {
@@ -290,6 +307,15 @@ img {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  /* color: var(--footer__address-color); */
+  color: var(--footer__address-color);
 }
+
+.footer__address {
+  margin-top: 20px;
+}
+
+.footer__address-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 /* ========== END FOOTER ========== */
