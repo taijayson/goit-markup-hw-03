@@ -17,6 +17,7 @@
 
 body {
   font-family: var(--main-font);
+  max-width: 1600px;
 }
 
 img {
@@ -36,7 +37,7 @@ img {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -78,7 +79,7 @@ img {
   justify-content: space-between;
 }
 .header .address {
-  /* margin-left: auto; */
+  display: flex;
 }
 
 .navigation {
@@ -125,6 +126,18 @@ img {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: var(--headers-color);
+}
+
+.address__list {
+  display: flex;
+}
+
+.address__list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.address__list-link {
+  color: var(--text-color);
 }
 /* ========== END HEADER ========== */
 
