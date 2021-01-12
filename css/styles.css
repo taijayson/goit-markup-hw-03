@@ -178,7 +178,6 @@ img {
 
 .about__list {
   display: flex;
-  padding-top: 94px;
 }
 
 .about__list-header {
@@ -214,12 +213,7 @@ img {
   flex-wrap: wrap;
 }
 
-.works__list-item {
-  padding-bottom: 94px;
-}
-
 .works__header {
-  padding-top: 94px;
   margin: 0 auto;
 }
 
@@ -242,14 +236,12 @@ img {
 }
 
 .team__header {
-  padding-top: 94px;
   margin: 0 auto;
 }
 
 .team__list {
   display: flex;
   padding-top: 50px;
-  padding-bottom: 94px;
 }
 
 .team__name {
