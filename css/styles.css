@@ -105,6 +105,10 @@ img {
   color: var(--headers-color);
 }
 
+.navigation__list-item .active {
+  color: var(--accent-color);
+}
+
 .navigation__list-link:hover,
 .address__list-link:hover,
 .navigation__list-link:focus,
