@@ -217,6 +217,10 @@ img {
   flex-wrap: wrap;
 }
 
+.works {
+  padding-bottom: 47px;
+}
+
 .works__header {
   margin: 0 auto;
 }
@@ -237,6 +241,10 @@ img {
 .team .container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.team {
+  padding-top: 47px;
 }
 
 .team__header {
@@ -278,9 +286,6 @@ img {
 /* ========== FOOTER ========== */
 .footer {
   background-color: #2f303a;
-}
-
-.footer .container {
   padding: 60px 0px;
 }
 

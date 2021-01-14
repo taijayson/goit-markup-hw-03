@@ -133,6 +133,10 @@ img {
   justify-content: center;
 }
 
+.projects {
+  padding-top: 94px;
+}
+
 .projects__list {
   display: flex;
 }
@@ -156,10 +160,6 @@ img {
   background-color: var(--accent-color);
   color: var(--hero-color);
   outline: none;
-}
-
-.projects__list-item {
-  padding-top: 94px;
 }
 
 .projects__list-item:not(:last-child) {
@@ -186,7 +186,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   color: var(--headers-color);
 }
 
@@ -194,6 +194,11 @@ img {
   width: 370px;
   height: 404px;
   margin-bottom: 30px;
+}
+
+.works__list-desc {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 
 .works__list-name {
@@ -215,9 +220,6 @@ img {
 /* ========== FOOTER ========== */
 .footer {
   background-color: #2f303a;
-}
-
-.footer .container {
   padding: 60px 0px;
 }
 
