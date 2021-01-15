@@ -69,16 +69,7 @@ img {
 /* ========== HEADER ========== */
 .header {
   padding: 32px 0;
-}
-
-.header::after {
-  content: "";
-  position: absolute;
-  background-color: #ececec;
-  width: 1600px;
-  height: 1px;
-  display: block;
-  margin-top: 32px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header .container {
@@ -153,7 +144,7 @@ img {
 }
 
 .projects {
-  padding-top: 94px;
+  padding: 94px 0;
 }
 
 .projects__list {
@@ -196,7 +187,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
-  padding-bottom: 94px;
 }
 
 .works__list-title {
